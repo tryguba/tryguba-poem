@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Phillippscript";
+  src: url("../css/fonts/PhillippScript.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../css/fonts/ProximaNova-Regular.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../css/fonts/SegoeUI.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI-SemiBold";
+  src: url("../css/fonts/SegoeUI-SemiBold.ttf");
+  font-style: normal;
+}
+
+$phillipp: 'Phillippscript';
+$proxima: 'ProximaNova';
+$segoeUI: 'SegoeUI';
+$segoeUI-SemiBold: 'SegoeUI-SemiBold';
