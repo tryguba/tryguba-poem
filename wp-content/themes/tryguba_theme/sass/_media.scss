@@ -1,162 +1,107 @@
 @media screen and (max-width: 1199px) {
 
-  //================ BLOCK-1 =============
-  .b1 {
-
-  }
-  //================ BLOCK-2 =============
-  .b2 {
-
-  }
-  //================ BLOCK-3 =============
-  .b3 {
-
-  }
-  //================ BLOCK-4 =============
-  .b4 {
-
-  }
-  //================ BLOCK-5 =============
-  .b5 {
-
-  }
-  //================ BLOCK-6 =============
-  .b6 {
-
-  }
-  //================ BLOCK-7 =============
-  .b7 {
-
-  }
-  //================ BLOCK-8 =============
-  .b8 {
-
-  }
-  //================ BLOCK-9 =============
-  .b9 {
-
-  }
-  //================ BLOCK-10 ============
-  .b10 {
-
-  }
-  //================ BLOCK-11 ============
-  .b11 {
-
-  }
-  //================ BLOCK-12 ============
-  .b12 {
-
+  .content {
+    .box {
+      background-size: contain;
+    }
   }
   //============================================
 }
 
 @media screen and (max-width: 991px) {
-
-  //================ BLOCK-1 =============
-  .b1 {
-
+  .header {
+    .menu {
+      font-size: 16px;
+    }
   }
-  //================ BLOCK-2 =============
-  .b2 {
-
+  .b1 .title {
+    font-size: 100px;
+    line-height: 1;
+    padding-top: 50px;
   }
-  //================ BLOCK-3 =============
-  .b3 {
-
+  .b1-about {
+    font-size: 22px;
+    line-height: 1;
+    padding-top: 35px;
   }
-  //================ BLOCK-4 =============
-  .b4 {
-
+  .b1-footer {
+    margin-top: 65px;
   }
-  //================ BLOCK-5 =============
-  .b5 {
-
+  .author {
+    padding: 50px 0;
+    .about-author {
+      padding-bottom: 40px;
+      text-align: center;
+    }
   }
-  //================ BLOCK-6 =============
-  .b6 {
-
+  .content {
+    padding: 50px 0;
+    .title {
+      padding-bottom: 0;
+    }
+    .box {
+      height: 350px;
+      &-img {
+        padding-top: 90px;
+      }
+      &-text {
+        font-size: 22px;
+      }
+    }
   }
-  //================ BLOCK-7 =============
-  .b7 {
-
+  .contacts {
+    padding: 50px 0;
   }
-  //================ BLOCK-8 =============
-  .b8 {
-
-  }
-  //================ BLOCK-9 =============
-  .b9 {
-
-  }
-  //================ BLOCK-10 ============
-  .b10 {
-
-  }
-  //================ BLOCK-11 ============
-  .b11 {
-
-  }
-  //================ BLOCK-12 ============
-  .b12 {
-
+  .footer {
+    padding: 30px 0;
+    .menu {
+      font-size: 16px;
+      line-height: 1;
+      li::before {
+        display: none;
+      }
+    }
   }
   //======================================
 
 }
 
 @media screen and (max-width: 767px) {
-
-  //================ BLOCK-1 =============
+  .b1 .social-icon {
+    justify-content: space-around;
+  }
   .b1 {
-
+    .top-nav_btn {
+      display: block;
+    }
+    .menu {
+      flex-direction: column;
+      margin-top: 20px;
+      display: none;
+      transition: all 0.8s;
+      &__active{
+        display: flex;
+      }
+      li{
+        margin-top: 10px;
+      }
+    }
   }
-  //================ BLOCK-2 =============
-  .b2 {
-
+  .content {
+    padding-top: 100px;
   }
-  //================ BLOCK-3 =============
-  .b3 {
-
+  .blog {
+    background-size: 70%;
+    background-position: center 98%;
+    .box {
+      margin-top: 20px;
+    }
   }
-  //================ BLOCK-4 =============
-  .b4 {
-
+  .footer{
+    .menu{
+      flex-direction: column;
+    }
   }
-  //================ BLOCK-5 =============
-  .b5 {
-
-  }
-  //================ BLOCK-6 =============
-  .b6 {
-
-  }
-  //================ BLOCK-7 =============
-  .b7 {
-
-  }
-  //================ BLOCK-8 =============
-  .b8 {
-
-  }
-  //================ BLOCK-9 =============
-  .b9 {
-
-  }
-  //================ BLOCK-10 ============
-  .b10 {
-
-  }
-  //================ BLOCK-11 ============
-  .b11 {
-
-  }
-  //================ BLOCK-12 ============
-  .b12 {
-
-  }
-  //=======================================
-
 }
 
 @media screen and (max-width: 575px) {

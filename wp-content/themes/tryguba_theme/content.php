@@ -6,12 +6,12 @@ Template Post Type: post
 ?>
 <?php get_header(); ?>
 
-
+<div class="hello"></div>
 <section class="content" id="content">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-10">
-				<div class="content-list-poem">
+			<div class="col-md-4">
+				<div class="content-list-book">
 					<?php
 					//откуда будем парсить информацию
 					$content = file_get_contents('http://tryguba.vn.ua/index.php/all-in-my-heart.html');
@@ -30,11 +30,11 @@ Template Post Type: post
 					?>
 				</div>
 			</div>
-			<!--<div class="col-md-8">
+			<div class="col-md-8">
 				<h2 class="title">Зміст</h2>
 				<div class="content-list-poem">
 					<?php
-/*					//откуда будем парсить информацию
+					//откуда будем парсить информацию
 					$content = file_get_contents('http://tryguba.vn.ua/index.php/yse-v-shcho-viryu-ya.html');
 					// Определяем позицию строки, до которой нужно все отрезать
 					$pos = strpos($content, '<em>');
@@ -48,9 +48,9 @@ Template Post Type: post
 //					$content = str_replace('текст который нужно вырезать', '', $content);
 					// выводим спарсенный текст.
 					echo $content;
-					*/?>
+					?>
 				</div>
-			</div>-->
+			</div>
 		</div>
 	</div>
 </section>

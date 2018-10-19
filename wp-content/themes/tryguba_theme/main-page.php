@@ -13,6 +13,7 @@ Template Name: Головна
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-grid.min.css">
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/styles.css">
+	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/icon.css">
 	<!--=============================================================================-->
 </head>
 <body>
@@ -20,17 +21,16 @@ Template Name: Головна
 <section class="b1">
 	<div class="container">
 		<div class="header">
-			<div class="row align-items-center">
-				<div class="col-md-3">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-md-3 col-10">
 					<div class="logo">
 						<img src="<?php bloginfo('template_url'); ?>/img/favicon.png" alt="logo">
 						<div class="logo-text">Поезія</div>
 					</div>
 				</div>
-				<div class="col-md-9">
-					
+				<div class="col-md-9 col-10">
+					<button class="top-nav_btn"><i class="icon-menu"></i></button>
 					<?php
-					
 					$args = array(
 						'menu' => 'top_menu',
 						'container' => 'ul',
@@ -43,7 +43,6 @@ Template Name: Головна
 						'walker' => ''
 					);
 					?>
-					
 					<?php wp_nav_menu($args); ?>
 				</div>
 			</div>
@@ -61,16 +60,17 @@ Template Name: Головна
 		</div>
 		<div class="b1-footer">
 			<div class="row justify-content-between align-items-center">
-				<div class="col-md-2">
-					<div class="year"><?php echo date( "Y" ); ?></div>
+				<div class="col-md-2 d-none d-md-block">
+					<div class="year"><?php echo date("Y"); ?></div>
 				</div>
-				<div class="col-md-1"><a href="#author"><img src="<?php bloginfo('template_url') ?>/img/mouse.png"
-				                                             alt="mouse"></a></div>
-				<div class="col-md-3">
+				<div class="col-md-1 d-none d-md-block"><a href="#author"><img
+								src="<?php bloginfo('template_url') ?>/img/mouse.png"
+								alt="mouse"></a></div>
+				<div class="col-md-4 col-10">
 					<div class="social-icon">
-						<a href="#"><img src="<?php bloginfo('template_url') ?>/img/twitter.png" alt="twitter"></a>
-						<a href="<?php the_field('fb_link', 7);?>"><img src="<?php bloginfo('template_url') ?>/img/facebook.png" alt="facebook"></a>
-						<a href="#"><img src="<?php bloginfo('template_url') ?>/img/instagram.png" alt="instagram"></a>
+						<a href="#"><i class="icon-facebook"></i></a>
+						<a href="#"><i class="icon-twitter"></i></a>
+						<a href="#"><i class="icon-instagram"></i></a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@ Template Name: Головна
 <section class="author" id="author">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-7">
+			<div class="col-md-7 col-10">
 				<h2 class="title">Про автора</h2>
 				<div class="about-author">
 					<div class="about-author-title">
@@ -107,7 +107,7 @@ Template Name: Головна
 					</div>
 				</div>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-5 col-10">
 				<div class="father-img">
 					<img src="<?php bloginfo('template_url'); ?>/img/tryguba.png" alt="Тригуба В.П.">
 				</div>
@@ -120,20 +120,20 @@ Template Name: Головна
 <section class="content" id="content">
 	<div class="container">
 		<h2 class="title">Зміст</h2>
-		<div class="row">
-			<div class="col-md-4">
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-10">
 				<div class="box">
 					<div class="box-img"><img src="<?php bloginfo('template_url'); ?>/img/b3-pero.png" alt="pero"></div>
 					<div class="box-text">Усе, в що вірю я</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-10">
 				<div class="box">
 					<div class="box-img"><img src="<?php bloginfo('template_url'); ?>/img/b3-pero.png" alt="pero"></div>
 					<div class="box-text">Зоря кохання</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 col-10">
 				<div class="box">
 					<div class="box-img"><img src="<?php bloginfo('template_url'); ?>/img/b3-pero.png" alt="pero"></div>
 					<div class="box-text">Любов забуть <br>
@@ -170,7 +170,7 @@ Template Name: Головна
 <section class="blog" id="blog">
 	<div class="container">
 		<h2 class="title">Блог</h2>
-		<div class="row">
+		<div class="row justify-content-center">
 			<?php
 			$posts = get_posts(array(
 				'numberposts' => 4,
@@ -183,10 +183,10 @@ Template Name: Головна
 			foreach ($posts as $post) {
 				setup_postdata($post);
 				?>
-				<article class="col-md-3">
+				<article class="col-md-3 col-10">
 					<div class="box">
 						<a class="" href="<?php the_permalink(); ?>">
-							<div class="box-img"><img src="<?php the_post_thumbnail_url();?>" alt="item"></div>
+							<div class="box-img"><img src="<?php the_post_thumbnail_url(); ?>" alt="item"></div>
 							<div class="box-text">
 								<div class="box-text-title"><?php the_title(); ?></div>
 								<div class="box-text-describe"><?php the_content('Перейти к полной статье...'); ?></div>

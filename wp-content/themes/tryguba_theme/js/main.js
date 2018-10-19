@@ -5,6 +5,16 @@ $(window).scroll(function () {
 });
 
 
+$(document).ready(function () {
+	var menuBtn = $('.top-nav_btn');
+	var menu = $('#menu-top_menu');
+	
+	menuBtn.on('click', function (e) {
+		e.preventDefault();
+		menu.toggleClass('menu__active');
+	});
+});
+
 
 
 

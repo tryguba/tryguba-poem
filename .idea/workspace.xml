@@ -2,8 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dfe075a-8062-47a8-97a5-7b23d4538b05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/style-content.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/style-content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/style-content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/style-content.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/author-bio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/Genericons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/genericons/genericons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/color-scheme-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/editor-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/back-compat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/color-patterns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/custom-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/customizer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/icon-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-tags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/searchform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/single.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,346 +124,258 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="857099732">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="8" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="2" />
+          <entry key="html" value="1" />
+          <entry key="js" value="3" />
+          <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="43" />
-          <entry key="scss" value="28" />
+          <entry key="php" value="78" />
+          <entry key="png" value="1" />
+          <entry key="scss" value="46" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="8" />
           <entry key="Git file" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="40" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="28" />
+          <entry key="PHP" value="75" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="SCSS" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="16" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="6" />
-          <entry key="php" value="1235" />
-          <entry key="scss" value="227" />
+          <entry key="js" value="135" />
+          <entry key="php" value="1779" />
+          <entry key="scss" value="895" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSS" value="16" />
           <entry key="Git file" value="2" />
-          <entry key="JavaScript" value="6" />
-          <entry key="PHP" value="1234" />
+          <entry key="JavaScript" value="135" />
+          <entry key="PHP" value="1778" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="227" />
+          <entry key="SCSS" value="895" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding>
-                <element signature="e#6#31#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="511" selection-start-line="511" selection-end-line="511" />
-              <folding>
-                <element signature="e#46#159#0" />
-                <element signature="e#169#964#0" />
-                <element signature="e#234#523#0" />
-                <element signature="e#320#478#0" />
-                <element signature="e#487#519#0" />
-                <element signature="e#532#960#0" />
-                <element signature="e#770#954#0" />
-                <element signature="e#915#947#0" />
-                <element signature="e#842#1577#0" />
-                <element signature="e#1133#1375#0" />
-                <element signature="e#1385#1575#0" />
-                <element signature="e#1591#4526#0" />
-                <element signature="e#1621#1667#0" />
-                <element signature="e#1681#2151#0" />
-                <element signature="e#1789#2146#0" />
-                <element signature="e#1920#2096#0" />
-                <element signature="e#2109#2140#0" />
-                <element signature="e#2162#2334#0" />
-                <element signature="e#2344#2517#0" />
-                <element signature="e#2535#2684#0" />
-                <element signature="e#2693#3799#0" />
-                <element signature="e#2816#3106#0" />
-                <element signature="e#3067#3100#0" />
-                <element signature="e#3118#3203#0" />
-                <element signature="e#3217#3325#0" />
-                <element signature="e#3338#3795#0" />
-                <element signature="e#3647#3789#0" />
-                <element signature="e#3818#3991#0" />
-                <element signature="e#4007#4486#0" />
-                <element signature="e#4085#4482#0" />
-                <element signature="e#4199#4265#0" />
-                <element signature="e#4278#4398#0" />
-                <element signature="e#4410#4476#0" />
-                <element signature="e#4496#4524#0" />
-                <element signature="e#4534#5261#0" />
-                <element signature="e#4720#4962#0" />
-                <element signature="e#4976#5259#0" />
-                <element signature="e#5321#5563#0" />
-                <element signature="e#5978#6326#0" />
-                <element signature="e#6011#6102#0" />
-                <element signature="e#6109#6322#0" />
-                <element signature="e#6281#6316#0" />
-                <element signature="e#6340#7855#0" />
-                <element signature="e#6474#6573#0" />
-                <element signature="e#6593#6785#0" />
-                <element signature="e#6795#6849#0" />
-                <element signature="e#6858#7853#0" />
-                <element signature="e#6981#7276#0" />
-                <element signature="e#7237#7270#0" />
-                <element signature="e#7290#7379#0" />
-                <element signature="e#7392#7849#0" />
-                <element signature="e#7701#7843#0" />
-                <element signature="e#7863#9882#0" />
-                <element signature="e#7957#8244#0" />
-                <element signature="e#8252#8604#0" />
-                <element signature="e#8300#8336#0" />
-                <element signature="e#8457#8505#0" />
-                <element signature="e#8469#8499#0" />
-                <element signature="e#8518#8600#0" />
-                <element signature="e#8617#9274#0" />
-                <element signature="e#8655#8848#0" />
-                <element signature="e#8860#9093#0" />
-                <element signature="e#9051#9087#0" />
-                <element signature="e#9109#9270#0" />
-                <element signature="e#9290#9879#0" />
-                <element signature="e#9393#9875#0" />
-                <element signature="e#9702#9801#0" />
-                <element signature="e#9828#9869#0" />
-                <element signature="e#9892#10624#0" />
-                <element signature="e#9985#10622#0" />
-                <element signature="e#10244#10553#0" />
-                <element signature="e#10288#10486#0" />
-                <element signature="e#10515#10547#0" />
-                <element signature="e#10560#10618#0" />
-                <element signature="e#10652#10670#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="16">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="311" column="7" selection-start-line="311" selection-start-column="7" selection-end-line="311" selection-end-column="7" />
-              <folding>
-                <element signature="e#46#159#0" />
-                <element signature="e#211#956#0" />
-                <element signature="e#306#500#0" />
-                <element signature="e#511#681#0" />
-                <element signature="e#693#721#0" />
-                <element signature="e#730#853#0" />
-                <element signature="e#869#954#0" />
-                <element signature="e#966#1768#0" />
-                <element signature="e#995#1286#0" />
-                <element signature="e#1081#1241#0" />
-                <element signature="e#1250#1282#0" />
-                <element signature="e#1295#1766#0" />
-                <element signature="e#1533#1762#0" />
-                <element signature="e#1679#1756#0" />
-                <element signature="e#1824#2217#0" />
-                <element signature="e#1923#2156#0" />
-                <element signature="e#2096#2152#0" />
-                <element signature="e#2171#2215#0" />
-                <element signature="e#2181#2211#0" />
-                <element signature="e#2274#2896#0" />
-                <element signature="e#2391#2442#0" />
-                <element signature="e#2450#2894#0" />
-                <element signature="e#2660#2692#0" />
-                <element signature="e#2704#2890#0" />
-                <element signature="e#2954#4337#0" />
-                <element signature="e#3098#3290#0" />
-                <element signature="e#3300#3331#0" />
-                <element signature="e#3340#4335#0" />
-                <element signature="e#3463#3758#0" />
-                <element signature="e#3719#3752#0" />
-                <element signature="e#3772#3861#0" />
-                <element signature="e#3874#4331#0" />
-                <element signature="e#4183#4325#0" />
-                <element signature="e#4391#5522#0" />
-                <element signature="e#4486#4537#0" />
-                <element signature="e#4545#4850#0" />
-                <element signature="e#4656#4692#0" />
-                <element signature="e#4703#4751#0" />
-                <element signature="e#4715#4745#0" />
-                <element signature="e#4764#4846#0" />
-                <element signature="e#4863#5520#0" />
-                <element signature="e#4901#5094#0" />
-                <element signature="e#5106#5339#0" />
-                <element signature="e#5297#5333#0" />
-                <element signature="e#5355#5516#0" />
-                <element signature="e#5957#6311#0" />
-                <element signature="e#6047#6244#0" />
-                <element signature="e#6273#6305#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="207" selection-start-line="207" selection-end-line="207" />
-              <folding>
-                <element signature="e#0#5#0#PHP" />
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="e#235#240#0#PHP" />
-                <element signature="e#372#377#0#PHP" />
-                <element signature="e#482#487#0#PHP" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#881#886#0#PHP" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#1048#1053#0#PHP" />
-                <element signature="e#1073#1356#0#PHP" />
-                <element signature="e#1377#1382#0#PHP" />
-                <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h1#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#1478#1483#0#PHP" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2121#2126#0#PHP" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2219#2224#0#PHP" />
-                <element signature="n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2426#2431#0#PHP" />
-                <element signature="e#2511#2516#0#PHP" />
-                <element signature="e#2555#2560#0#PHP" />
-                <element signature="e#2655#2660#0#PHP" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#3871#3876#0#PHP" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4262#4267#0#PHP" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4487#4492#0#PHP" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4708#4713#0#PHP" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#5848#6053#0#PHP" />
-                <element signature="e#5858#6052#1#PHP" />
-                <element signature="e#6062#6595#0#PHP" />
-                <element signature="n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6202#6207#0#PHP" />
-                <element signature="n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6268#6273#0#PHP" />
-                <element signature="n#div#1;n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6387#6392#0#PHP" />
-                <element signature="e#6454#6459#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.427669">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="true" current-in-tab="false">
+            <entry file="remoteDeploymentFS://&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/blog-article.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                  <folding>
+                    <element signature="e#7#57#0#PHP" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#5#0#PHP" />
+                    <element signature="e#235#240#0#PHP" />
+                    <element signature="e#372#377#0#PHP" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#881#886#0#PHP" />
+                    <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#h1#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#1460#1465#0#PHP" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#2201#2206#0#PHP" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#3853#3858#0#PHP" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#4244#4249#0#PHP" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#4469#4474#0#PHP" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#4690#4695#0#PHP" />
+                    <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#6250#6255#0#PHP" />
+                    <element signature="n#div#1;n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="e#6369#6374#0#PHP" />
+                    <element signature="e#6436#6441#0#PHP" />
+                    <element signature="e#6650#6655#0#PHP" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="horizontal" split-proportion="0.45886442">
+          <split-first>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="208">
+                      <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                      <folding>
+                        <element signature="e#46#159#0" />
+                        <element signature="e#306#500#0" />
+                        <element signature="e#511#681#0" />
+                        <element signature="e#693#721#0" />
+                        <element signature="e#730#853#0" />
+                        <element signature="e#869#954#0" />
+                        <element signature="e#966#1768#0" />
+                        <element signature="e#995#1286#0" />
+                        <element signature="e#1081#1241#0" />
+                        <element signature="e#1250#1282#0" />
+                        <element signature="e#1295#1766#0" />
+                        <element signature="e#1533#1762#0" />
+                        <element signature="e#1679#1756#0" />
+                        <element signature="e#1824#2217#0" />
+                        <element signature="e#1923#2156#0" />
+                        <element signature="e#2096#2152#0" />
+                        <element signature="e#2171#2215#0" />
+                        <element signature="e#2181#2211#0" />
+                        <element signature="e#2391#2442#0" />
+                        <element signature="e#2450#2894#0" />
+                        <element signature="e#2660#2692#0" />
+                        <element signature="e#2704#2890#0" />
+                        <element signature="e#2954#4337#0" />
+                        <element signature="e#3098#3290#0" />
+                        <element signature="e#3300#3331#0" />
+                        <element signature="e#3340#4335#0" />
+                        <element signature="e#3463#3758#0" />
+                        <element signature="e#3719#3752#0" />
+                        <element signature="e#3772#3861#0" />
+                        <element signature="e#3874#4331#0" />
+                        <element signature="e#4183#4325#0" />
+                        <element signature="e#4391#5522#0" />
+                        <element signature="e#4486#4537#0" />
+                        <element signature="e#4545#4850#0" />
+                        <element signature="e#4656#4692#0" />
+                        <element signature="e#4703#4751#0" />
+                        <element signature="e#4715#4745#0" />
+                        <element signature="e#4764#4846#0" />
+                        <element signature="e#4863#5520#0" />
+                        <element signature="e#4901#5094#0" />
+                        <element signature="e#5106#5339#0" />
+                        <element signature="e#5297#5333#0" />
+                        <element signature="e#5355#5516#0" />
+                        <element signature="e#6047#6244#0" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_media.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="799">
+                      <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+                      <folding>
+                        <element signature="e#203#209#0" />
+                        <element signature="e#508#518#0" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>php.ini</find>
+      <find>scr</find>
+      <find>scrollup</find>
+      <find>b1</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -363,7 +388,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/page.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/about_author.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/author.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/blog.scss" />
@@ -372,18 +396,32 @@
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/contacts.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/content.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/blog-article.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/blog.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/parser.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/contacts.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/sass/style-content.scss" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/content.php" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/css/style-content.css" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/sass/_variebles.scss" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/css/styles.css" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/blog-article.php" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/main-page.php" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/functions.php" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/blog.php" />
+        <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-content/themes/tryguba_theme/sass/_media.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_fonts.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_media.scss" />
       </list>
     </option>
   </component>
@@ -394,9 +432,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2954" />
+    <option name="x" value="2855" />
     <option name="y" value="30" />
-    <option name="width" value="1526" />
+    <option name="width" value="1625" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -408,7 +446,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,15 +453,73 @@
               <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
               <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/media/oleg/VERSTKA/fragrance-new-year" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
+    <property name="last_opened_file_path" value="/media/oleg/VERSTKA/DONE/black-latte/blackLatte" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -470,18 +565,20 @@
       <workItem from="1539243590733" duration="15104000" />
       <workItem from="1539322768614" duration="15768000" />
       <workItem from="1539669344602" duration="74000" />
-      <workItem from="1539754771162" duration="7810000" />
+      <workItem from="1539754771162" duration="18572000" />
+      <workItem from="1539842399591" duration="11150000" />
+      <workItem from="1539928237539" duration="18725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51729000" />
+    <option name="totallyTimeSpent" value="92366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2954" y="30" width="1526" height="1048" extended-state="0" />
+    <frame x="2855" y="30" width="1625" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1808367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11560328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -497,12 +594,14 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.36363637" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.17845118" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32996634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3298887" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.088562354" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="88" column="30" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/404.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -553,13 +642,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/contacts.scss" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/archive.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/about_author.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -582,122 +664,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="16">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#31#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-          <folding>
-            <element signature="e#0#5#0#PHP" />
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="e#235#240#0#PHP" />
-            <element signature="e#372#377#0#PHP" />
-            <element signature="e#482#487#0#PHP" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#881#886#0#PHP" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1048#1053#0#PHP" />
-            <element signature="e#1073#1356#0#PHP" />
-            <element signature="e#1377#1382#0#PHP" />
-            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#h1#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1478#1483#0#PHP" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2121#2126#0#PHP" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2219#2224#0#PHP" />
-            <element signature="n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2426#2431#0#PHP" />
-            <element signature="e#2511#2516#0#PHP" />
-            <element signature="e#2555#2560#0#PHP" />
-            <element signature="e#2655#2660#0#PHP" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#3871#3876#0#PHP" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4262#4267#0#PHP" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4487#4492#0#PHP" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4708#4713#0#PHP" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5848#6053#0#PHP" />
-            <element signature="e#5858#6052#1#PHP" />
-            <element signature="e#6062#6595#0#PHP" />
-            <element signature="n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6202#6207#0#PHP" />
-            <element signature="n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6268#6273#0#PHP" />
-            <element signature="n#div#1;n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6387#6392#0#PHP" />
-            <element signature="e#6454#6459#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" selection-start-line="1" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="48">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -708,26 +722,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/style-content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret column="2109" lean-forward="true" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/blog-article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        <state relative-caret-position="240">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-thumbnail-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/img/heart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/fonts/fontello/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/fonts/fontello/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_variebles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="250" column="1" lean-forward="true" selection-start-line="250" selection-start-column="1" selection-end-line="250" selection-end-column="1" />
           <folding>
-            <element signature="e#7#57#0#PHP" expanded="true" />
+            <element signature="e#46#159#0" />
+            <element signature="e#169#934#0" />
+            <element signature="e#234#523#0" />
+            <element signature="e#320#478#0" />
+            <element signature="e#487#519#0" />
+            <element signature="e#532#932#0" />
+            <element signature="e#770#928#0" />
+            <element signature="e#890#922#0" />
+            <element signature="e#944#1679#0" />
+            <element signature="e#1235#1477#0" />
+            <element signature="e#1487#1677#0" />
+            <element signature="e#1693#4634#0" />
+            <element signature="e#1723#1769#0" />
+            <element signature="e#1783#2253#0" />
+            <element signature="e#1891#2248#0" />
+            <element signature="e#2022#2198#0" />
+            <element signature="e#2211#2242#0" />
+            <element signature="e#2264#2436#0" />
+            <element signature="e#2446#2619#0" />
+            <element signature="e#2637#2786#0" />
+            <element signature="e#2795#3901#0" />
+            <element signature="e#2918#3208#0" />
+            <element signature="e#3169#3202#0" />
+            <element signature="e#3220#3305#0" />
+            <element signature="e#3319#3427#0" />
+            <element signature="e#3440#3897#0" />
+            <element signature="e#3749#3891#0" />
+            <element signature="e#3920#4093#0" />
+            <element signature="e#4110#4593#0" />
+            <element signature="e#4189#4589#0" />
+            <element signature="e#4304#4370#0" />
+            <element signature="e#4384#4504#0" />
+            <element signature="e#4517#4583#0" />
+            <element signature="e#4604#4632#0" />
+            <element signature="e#4642#5369#0" />
+            <element signature="e#4828#5070#0" />
+            <element signature="e#5084#5367#0" />
+            <element signature="e#5429#5671#0" />
+            <element signature="e#5693#6060#0" />
+            <element signature="e#5847#6056#0" />
+            <element signature="e#6014#6049#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/css/fonts/fontello/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="300" column="185" lean-forward="true" selection-start-line="300" selection-start-column="7" selection-end-line="300" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="311" column="7" selection-start-line="311" selection-start-column="7" selection-end-line="311" selection-end-column="7" />
+        <state relative-caret-position="208">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="e#46#159#0" />
-            <element signature="e#211#956#0" />
             <element signature="e#306#500#0" />
             <element signature="e#511#681#0" />
             <element signature="e#693#721#0" />
@@ -745,7 +869,6 @@
             <element signature="e#2096#2152#0" />
             <element signature="e#2171#2215#0" />
             <element signature="e#2181#2211#0" />
-            <element signature="e#2274#2896#0" />
             <element signature="e#2391#2442#0" />
             <element signature="e#2450#2894#0" />
             <element signature="e#2660#2692#0" />
@@ -771,118 +894,80 @@
             <element signature="e#5106#5339#0" />
             <element signature="e#5297#5333#0" />
             <element signature="e#5355#5516#0" />
-            <element signature="e#5957#6311#0" />
             <element signature="e#6047#6244#0" />
-            <element signature="e#6273#6305#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        <state relative-caret-position="289">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
-            <element signature="e#46#159#0" />
-            <element signature="e#169#964#0" />
-            <element signature="e#234#523#0" />
-            <element signature="e#320#478#0" />
-            <element signature="e#487#519#0" />
-            <element signature="e#532#960#0" />
-            <element signature="e#770#954#0" />
-            <element signature="e#915#947#0" />
-            <element signature="e#842#1577#0" />
-            <element signature="e#1133#1375#0" />
-            <element signature="e#1385#1575#0" />
-            <element signature="e#1591#4526#0" />
-            <element signature="e#1621#1667#0" />
-            <element signature="e#1681#2151#0" />
-            <element signature="e#1789#2146#0" />
-            <element signature="e#1920#2096#0" />
-            <element signature="e#2109#2140#0" />
-            <element signature="e#2162#2334#0" />
-            <element signature="e#2344#2517#0" />
-            <element signature="e#2535#2684#0" />
-            <element signature="e#2693#3799#0" />
-            <element signature="e#2816#3106#0" />
-            <element signature="e#3067#3100#0" />
-            <element signature="e#3118#3203#0" />
-            <element signature="e#3217#3325#0" />
-            <element signature="e#3338#3795#0" />
-            <element signature="e#3647#3789#0" />
-            <element signature="e#3818#3991#0" />
-            <element signature="e#4007#4486#0" />
-            <element signature="e#4085#4482#0" />
-            <element signature="e#4199#4265#0" />
-            <element signature="e#4278#4398#0" />
-            <element signature="e#4410#4476#0" />
-            <element signature="e#4496#4524#0" />
-            <element signature="e#4534#5261#0" />
-            <element signature="e#4720#4962#0" />
-            <element signature="e#4976#5259#0" />
-            <element signature="e#5321#5563#0" />
-            <element signature="e#5978#6326#0" />
-            <element signature="e#6011#6102#0" />
-            <element signature="e#6109#6322#0" />
-            <element signature="e#6281#6316#0" />
-            <element signature="e#6340#7855#0" />
-            <element signature="e#6474#6573#0" />
-            <element signature="e#6593#6785#0" />
-            <element signature="e#6795#6849#0" />
-            <element signature="e#6858#7853#0" />
-            <element signature="e#6981#7276#0" />
-            <element signature="e#7237#7270#0" />
-            <element signature="e#7290#7379#0" />
-            <element signature="e#7392#7849#0" />
-            <element signature="e#7701#7843#0" />
-            <element signature="e#7863#9882#0" />
-            <element signature="e#7957#8244#0" />
-            <element signature="e#8252#8604#0" />
-            <element signature="e#8300#8336#0" />
-            <element signature="e#8457#8505#0" />
-            <element signature="e#8469#8499#0" />
-            <element signature="e#8518#8600#0" />
-            <element signature="e#8617#9274#0" />
-            <element signature="e#8655#8848#0" />
-            <element signature="e#8860#9093#0" />
-            <element signature="e#9051#9087#0" />
-            <element signature="e#9109#9270#0" />
-            <element signature="e#9290#9879#0" />
-            <element signature="e#9393#9875#0" />
-            <element signature="e#9702#9801#0" />
-            <element signature="e#9828#9869#0" />
-            <element signature="e#9892#10624#0" />
-            <element signature="e#9985#10622#0" />
-            <element signature="e#10244#10553#0" />
-            <element signature="e#10288#10486#0" />
-            <element signature="e#10515#10547#0" />
-            <element signature="e#10560#10618#0" />
-            <element signature="e#10652#10670#0" />
+            <element signature="e#0#5#0#PHP" />
+            <element signature="e#235#240#0#PHP" />
+            <element signature="e#372#377#0#PHP" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#881#886#0#PHP" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h1#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1460#1465#0#PHP" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#img#0;n#a#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#2201#2206#0#PHP" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#3853#3858#0#PHP" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4244#4249#0#PHP" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4469#4474#0#PHP" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#4690#4695#0#PHP" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#6250#6255#0#PHP" />
+            <element signature="n#div#1;n#a#0;n#div#0;n#article#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#6369#6374#0#PHP" />
+            <element signature="e#6436#6441#0#PHP" />
+            <element signature="e#6650#6655#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="16">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="799">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+          <folding>
+            <element signature="e#203#209#0" />
+            <element signature="e#508#518#0" />
+          </folding>
         </state>
       </provider>
     </entry>
