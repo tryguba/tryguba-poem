@@ -1,0 +1,7 @@
+.tm_pb_builder #tm_builder_outer_content ul.tm_pb_social_media_follow .tm_pb_social_icon a.icon {
+	color: $regular_link_color;
+}
+
+.tm_pb_builder #tm_builder_outer_content ul.tm_pb_social_media_follow .tm_pb_social_icon a.icon:hover {
+	color: $regular_accent_color_2;
+}

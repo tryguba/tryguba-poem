@@ -1,0 +1,5 @@
+#tm_builder_outer_content .tm_pb_post .post__comments > span:after,
+#tm_builder_outer_content .tm_pb_post .tm_pb_post_meta .author > span:after,
+#tm_builder_outer_content .tm_pb_post .post__tags__header > span:after {
+	background: @alpha( $regular_accent_color_2, 53 );
+}

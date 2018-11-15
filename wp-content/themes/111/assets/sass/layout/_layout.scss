@@ -1,0 +1,16 @@
+.container {
+	&.site-header,
+	&.site-footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	&.site-content {
+		.content-layout-boxed & {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+
+.site-content_wrap.container .tm_builder_outer_content .container { padding-left: 0; padding-right: 0; }

@@ -1,0 +1,151 @@
+.tm_pb_cherry_team {
+	.team-more-btn {
+		text-align: center;
+	}
+
+	.team-listing {
+		.team-item {
+			text-align: center;
+		}
+	}
+
+	.team-listing_name {
+		margin-bottom: 3px;
+		padding-top: 9px;
+	}
+
+	.team-listing_photo{
+		padding: 0;
+
+		@include media-breakpoint-down(sm) {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.team-listing_position {
+		font-size: 1.0625rem;
+	}
+
+	.cherry-team-filter_item .cherry-team-filter_link {
+		line-height: 39px;
+		display: inline-block;
+		min-width: 55px;
+		text-align: center;
+		font-size: 16px;
+		text-decoration: none;
+		border-radius: 0;
+	}
+
+	.cherry-team-filter_item.active .cherry-team-filter_link,
+	.cherry-team-filter_item .cherry-team-filter_link {
+		border: none;
+	}
+
+	img{
+		border-radius: 4px;
+	}
+}
+
+.cherry-team .team-item {
+	@media (min-width: 767px) and (max-width: 1200px) {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+}
+
+.team-listing_socials {
+	padding: 0;
+	position: absolute;
+	bottom: 111px;
+	opacity: 0;
+	left: 0;
+	right: 0;
+	@include transition(all 0.4s ease-out);
+
+	@include media-breakpoint-down(md) {
+		position: relative;
+		bottom: 15px;
+		opacity: 1;
+	}
+
+	.team-socials {
+		padding: 15px 0;
+		border-radius: 0 0 4px 4px;
+	}
+}
+
+.photo_caption {
+	position: relative;
+	overflow: hidden;
+
+	&:hover {
+		.team-listing_socials {
+			bottom: 10px;
+			opacity: 1;
+			@include media-breakpoint-down(md) {
+				bottom: 15px;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.team-listing_socials .team-socials_item {
+	margin: 0 0 0 21px;
+
+	@include media-breakpoint-down(md) {
+		margin: 0 0 0 10px;
+	}
+	&:first-child {
+		margin: 0;
+	}
+	.team-socials_link {
+		width: auto;
+		height: auto;
+		.team-socials_icon.fa {
+			font-size: .9rem;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 24px;
+			height: 24px;
+			width: 24px;
+			@include transition(all 0.3s ease-out);
+		}
+	}
+}
+
+.team-single-item .team-meta_item.position:before{
+	display: none;
+}
+
+.team-wrap .team-single-item{
+	padding-bottom: 40px;
+	.team-macros {
+		.team-socials {
+			padding: 0;
+			background: none;
+			.team-socials_item {
+				margin-right: 20px;
+			}
+			.team-socials_link {
+				width: auto;
+				height: auto;
+
+				.team-socials_icon {
+					font-size: 0.825rem;
+				}
+			}
+		}
+	}
+}
+
+.team-photo {
+	float: none;
+	margin: 0;
+}
+
+.cherry-team .team-listing {
+	padding-bottom: 15px;
+}

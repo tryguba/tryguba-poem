@@ -59,7 +59,7 @@ Template Name: Головна
 			</div>
 		</div>
 		<div class="b1-footer">
-			<div class="row justify-content-between align-items-center">
+			<div class="row justify-content-md-between justify-content-center align-items-center">
 				<div class="col-md-2 d-none d-md-block">
 					<div class="year"><?php echo date("Y"); ?></div>
 				</div>

@@ -1,0 +1,11 @@
+#tm_builder_outer_content .tm_pb_module.tm_pb_circle_counter .percent {
+	color: $regular_link_color;
+	background: $regular_link_color;
+}
+
+#tm_builder_outer_content .tm_pb_module span.percent-value,
+#tm_builder_outer_content .tm_pb_circle_counter .percent p,
+#tm_builder_outer_content .tm_pb_slide_content .tm_pb_circle_counter .percent p:last-of-type,
+#tm_builder_outer_content .tm_pb_module.tm_pb_circle_counter .percent + * {
+	color: $regular_text_color;
+}

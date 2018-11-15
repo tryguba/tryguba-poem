@@ -1,0 +1,7 @@
+.tm_pb_builder #tm_builder_outer_content .tm_pb_number_counter .percent .percent-value::after {
+	background: $regular_accent_color_1;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_number_counter:hover .percent .percent-value::after {
+		background: $regular_accent_color_3;
+}

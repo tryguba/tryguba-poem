@@ -1,0 +1,100 @@
+.entry-content #tm_builder_outer_content .tm_pb_module {
+	ul, ol {
+		margin: 0 0 23px;
+		padding: 0;
+		li {
+			margin: 0 0 7px;
+		}
+	}
+	* + ul, * + ol {
+		margin-top: 40px;
+	}
+	li > ul, li > ol {
+		margin-top: 14px;
+	}
+
+	ul {
+		list-style: none;
+		> li {
+			position: relative;
+			padding-left: 40px;
+			font-weight: 600;
+			margin-bottom: 17px;
+			&:before {
+				content: "\e86c";
+				position: absolute;
+				left: 0;
+				top: 0;
+
+				display: inline-block;
+				font-family: 'Material Icons';
+				font-weight: 400;
+				font-style: normal;
+				font-size: 26px;
+				line-height: 1;
+			}
+		}
+	}
+
+	ol {
+		counter-reset: li;
+		> li {
+			font-weight: 600;
+			margin-bottom: 17px;
+			&:before {
+				content: counters(li, ".", decimal-leading-zero);
+				counter-increment: li;
+				font-weight: 400;
+				min-width: 15px;
+				display: inline-block;
+				margin-right: 11px;
+			}
+		}
+	}
+
+	li > ul,
+	li > ol {
+		margin-bottom: 0;
+		margin-left: 1.5em;
+	}
+
+	dt {
+		font-weight: bold;
+	}
+
+	dd {
+		margin: 0 1.5em 1.5em;
+	}
+}
+
+/* Inline list */
+.inline-list {
+	@include reset-list;
+	li {
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+ul ul ul {
+	list-style: none;
+	li {
+		position: relative;
+		padding-left: 40px;
+		&:before {
+			&:before {
+				content: "\e86c";
+				position: absolute;
+				left: 0;
+				top: 0;
+
+				display: inline-block;
+				font-family: 'Material Icons';
+				font-weight: 400;
+				font-style: normal;
+				font-size: 26px;
+				line-height: 1;
+			}
+		}
+	}
+}

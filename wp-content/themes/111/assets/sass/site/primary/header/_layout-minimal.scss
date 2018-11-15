@@ -1,0 +1,140 @@
+.site-header.minimal {
+	.site-branding {
+		padding: 0;
+		order: 0;
+		flex: 1 0 auto;
+		text-align: center;
+		margin-top: 8px;
+		@include media-breakpoint-up(md) {
+			order: 0;
+			text-align: left;
+		}
+		@media (min-width: 768px) and (max-width: 1199px) {
+			padding: 0 0 23px;
+		}
+		.site-description {
+			@include media-breakpoint-down(md) {
+				margin-top: -3px;
+			}
+		}
+	}
+
+	.main-navigation {
+		order: 2;
+		align-self: flex-end;
+		@include media-breakpoint-up(md) {
+			order: 1;
+		}
+		@include media-breakpoint-only(md) {
+			order: 3;
+		}
+		> .menu {
+			z-index: 10;
+			margin-top: 11px;
+			.isStuck & {
+				margin-top: 0 !important;
+			}
+			@include media-breakpoint-up(xl) {
+				margin-left: 0;
+			}
+			@media (max-width: 500px) {
+				width: calc(100% - 50px);
+			}
+			@media (max-width: 480px) {
+				width: 100%;
+				left: 0;
+			}
+		}
+		> .menu > .menu-item > a {
+			padding: 1px 19px 4px;
+			border-bottom: none;
+			&:after {
+				margin: 0;
+			}
+			@media (max-width: 1199px) {
+				padding: 16px 19px 21px;
+				&:after {
+					height: 100%;
+					margin: 0;
+				}
+			}
+			@include media-breakpoint-down(md) {
+				padding: 12px 30px;
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+		}
+
+		.menu-toggle {
+			@include media-breakpoint-down(md) {
+				margin-top: 6px;
+			}
+		}
+
+		&.isStuck > .menu {
+			margin-top: 0;
+		}
+	}
+
+	.header_caption {
+		@include media-breakpoint-up(xl) {
+			width: auto;
+		}
+	}
+
+	.header__search {
+		margin: 20px 0 0 0;
+
+		.search-form__toggle {
+			top: 0;
+		}
+		@include media-breakpoint-up(xl) {
+			margin: -20px 0 0;
+		}
+		@include media-breakpoint-down(md) {
+			.search-form__toggle {
+				top: auto;
+				bottom: 0;
+			}
+		}
+	}
+	.main-navigation .sub-menu {
+		margin-top: 40px;
+	}
+}
+
+.header-container {
+	.site-header.minimal & {
+		padding: 26px 0;
+		@media (max-width: 1199px) {
+			padding-bottom: 2px;
+		}
+		@include media-breakpoint-down(md) {
+			padding-bottom: 10px;
+			padding-top: 52px;
+		}
+	}
+	&__flex {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		align-content: stretch;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		@include media-breakpoint-up(lg) {
+			flex-wrap: nowrap;
+		}
+		@media (max-width: 1199px) {
+			flex-direction: column;
+		}
+	}
+	@media (max-width: 1199px) {
+		padding-top: 48px;
+	}
+	@include media-breakpoint-down(md) {
+		padding-top: 53px;
+		padding-bottom: 16px;
+	}
+}

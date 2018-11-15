@@ -1,0 +1,155 @@
+/* #Main Menu */
+.main-navigation .menu > li > a {
+	color: $regular_accent_color_2;
+}
+
+.main-navigation .menu > li > a:hover,
+.main-navigation .menu > li.menu-hover > a,
+.main-navigation .menu > li.current_page_item > a,
+.main-navigation .menu > li.current_page_ancestor > a,
+.main-navigation .menu > li.current-menu-item > a,
+.main-navigation .menu > li.current-menu-ancestor > a {
+	color: $regular_accent_color_1;
+}
+
+.main-navigation .sub-menu {
+	background: $regular_accent_color_2;
+}
+.main-navigation .sub-menu .sub-menu {
+	background: $regular_accent_color_1 !important;
+}
+
+.main-navigation .sub-menu::before {
+	border-bottom-color: $regular_accent_color_2;
+}
+
+.main-navigation .sub-menu > li > a .menu-item__desc,
+.main-navigation .menu > li::after,
+.main-navigation .sub-menu > li > a:hover,
+.main-navigation .sub-menu > li.menu-hover > a,
+.main-navigation .sub-menu > li.current_page_item > a,
+.main-navigation .sub-menu > li.current_page_ancestor > a,
+.main-navigation .sub-menu > li.current-menu-item > a,
+.main-navigation .sub-menu > li.current-menu-ancestor > a {
+	color: $regular_accent_color_3;
+}
+
+.main-navigation .sub-menu .sub-menu > li > a:hover,
+.main-navigation .sub-menu .sub-menu > li.menu-hover > a,
+.main-navigation .sub-menu .sub-menu > li.current_page_item > a,
+.main-navigation .sub-menu .sub-menu > li.current_page_ancestor > a,
+.main-navigation .sub-menu .sub-menu > li.current-menu-item > a,
+.main-navigation .sub-menu .sub-menu > li.current-menu-ancestor > a {
+	color: @alpha( $regular_accent_color_2, 100 );
+}
+
+.menu-item__desc {
+	color: $regular_text_color;
+}
+.main-navigation .menu > li::after,
+.main-navigation .menu > li.menu-item-has-children::after{
+	background: $regular_accent_color_1;
+}
+
+.site-header .search-form[data-toggle=true] .search-form__submit:hover {
+	color: $regular_accent_color_1;
+}
+
+.main-navigation .menu > li .sub-menu-toggle::before,
+.menu > li > a > .menu-item__desc,
+.set-menu a {
+	color: $invert_accent_color_2;
+}
+
+.main-navigation .sub-menu li.menu-item-has-children::after{
+	color: $invert_accent_color_1;
+}
+
+.isStuck .menu-toggle,
+.menu-toggle {
+	color: $regular_accent_color_1;
+}
+.main-navigation .menu > li .sub-menu-toggle::before, .menu > li > a > .menu-item__desc, .set-menu a,
+.menu-toggle:hover {
+	color: $regular_accent_color_1;
+}
+
+.main-navigation ul ul a,
+.isStuck .menu-toggle:hover {
+	color: $invert_accent_color_1;
+}
+
+.isStuck .menu {
+	background: $invert_accent_color_1;
+	border-bottom-color: @alpha( $regular_accent_color_2, .1 );
+}
+.set-menu a {
+	color: $invert_link_color;
+}
+
+.set-menu a:hover {
+	color: $regular_link_color;
+}
+
+@media (max-width: 767px) {
+	.main-navigation > .menu > .menu-item > a:hover {
+		color: $regular_link_color;
+	}
+}
+.main-navigation li {
+	font-family: @font_family( $h3_font_family );
+}
+
+.header_caption.isStuck:after {
+	background: $regular_link_color;
+}
+
+.main-navigation.toggled ul{
+	background-color: $top_panel_bg;
+}
+
+.main-navigation .menu > li .sub-menu-toggle:hover::before,
+.isStuck .main-navigation.toggled ul li.current_page_item > a,
+.isStuck .main-navigation.toggled .menu > li.menu-hover > a{
+	color: $regular_accent_color_1;
+}
+
+.main-navigation.toggled ul li.current_page_item > a,
+.main-navigation.toggled .menu > li.menu-hover > a,
+.main-navigation.toggled ul li a {
+	color: $invert_accent_color_1;
+}
+
+.main-navigation.toggled ul li a:hover,
+.main-navigation.toggled ul ul li a:hover,
+.main-navigation .sub-menu .sub-menu > li.current-menu-ancestor > a:hover {
+	color: $regular_accent_color_2 !important;
+}
+
+/* #Footer Menu */
+
+.footer-menu__items li.current-menu-item a,
+.footer-menu__items li.current_page_item a {
+	color: $regular_text_color;
+}
+.footer-menu__items .menu-item a {
+	color: $invert_text_color;
+}
+
+.footer-menu__items .menu-item a:hover,
+.footer-menu__items .menu-item.current_page_item a {
+	color: $regular_link_color;
+}
+
+#menu-footer-menu-custom li a {
+	color: $regular_accent_color_2;
+}
+
+
+#menu-footer-menu-custom li a:hover {
+	color: $regular_link_color;
+}
+
+.footer-menu__items .menu-item:before{
+	color: $invert_accent_color_1;
+}

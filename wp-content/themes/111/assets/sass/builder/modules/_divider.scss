@@ -1,0 +1,19 @@
+#tm_builder_outer_content {
+	hr.tm_pb_divider {
+		&:after {
+			width: 63px;
+			height: 3px;
+			content: '';
+			display: block;
+			position: absolute;
+			top: -1px;
+			left: 0;
+		}
+	}
+
+	.invert hr.tm_pb_divider {
+		&:before {
+			opacity: .5;
+		}
+	}
+}

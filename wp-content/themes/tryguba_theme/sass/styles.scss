@@ -12,12 +12,11 @@
 //================ BLOCK-1 ==================
 .b1 {
   background: url("../img/b1-bg.jpg") no-repeat center top;
+  background-size: cover;
   padding-bottom: 50px;
   .top-nav_btn{
     display: none;
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
     color: white;
     border: none;
@@ -34,7 +33,7 @@
     font-family: $phillipp;
     font-size: 130px;
     font-weight: 400;
-    line-height: 100px;
+    line-height: 1;
     text-align: left;
     letter-spacing: 2.6px;
     padding-top: 150px;
@@ -72,7 +71,7 @@
       transition: all 0.3s;
       &:hover{
         color: black;
-        background: rgba(255,255,255,0.8);
+        background: rgba(255, 127, 8, 0.8);
       }
     }
   }

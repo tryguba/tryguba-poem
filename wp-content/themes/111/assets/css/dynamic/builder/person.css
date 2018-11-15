@@ -1,0 +1,3 @@
+.tm_pb_builder #tm_builder_outer_content .tm_pb_module .tm_pb_team_member_description p + p {
+	color: $regular_text_color;
+}

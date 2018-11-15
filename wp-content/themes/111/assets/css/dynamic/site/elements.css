@@ -1,0 +1,49 @@
+/* #Elements */
+blockquote {
+	color: $regular_text_color;
+}
+blockquote a:hover {
+	color: $regular_link_color;
+}
+
+code {
+	color: @darken( $regular_text_color, 15% );
+	background: $invert_text_color;
+}
+.entry-content #tm_builder_outer_content .tm_pb_module ul > li:before {
+	color: $regular_accent_color_1;
+}
+code, kbd, tt, var {
+	font-family: @font_family( $body_font_family );
+}
+.page .entry-content ul > li::before, ul > li:before {
+	background-color: transparent;
+}
+.page .entry-content #tm_builder_outer_content .tm_pb_module ol > li:before {
+	color: $regular_link_color;
+}
+.entry-content code {
+		background: $regular_accent_color_1;
+		color: $invert_text_color;
+}
+blockquote:before {
+	color: $regular_link_color;
+	font-family: @font_family( $h3_font_family );
+}
+blockquote cite,
+blockquote cite:before {
+	color: $regular_accent_color_1;
+}
+#tm_builder_outer_content .tm_link_content a.tm_link_main_url:hover {
+	color: $regular_accent_color_2 !important;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_font_icon {
+		color: $regular_text_color;
+}
+.tm_pb_builder #tm_builder_outer_content .tm_pb_font_icon:hover {
+		color: $invert_link_color;
+}
+
+.not-found.error-404 .caption{
+	border-color: $invert_accent_color_3;
+}

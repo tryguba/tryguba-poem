@@ -1,0 +1,60 @@
+/* #Button Appearance Styles (regular scheme) */
+.btn-default,
+.btn-primary,
+.btn-secondary {
+	color: $invert_link_color;
+}
+.btn-default:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+	color: $regular_accent_color_1;
+}
+.btn-default, .btn {
+	background-color: $regular_link_color;
+	color: $invert_accent_color_1;
+}
+.btn-default:hover, .btn:not(.search-form__submit):hover {
+	background-color: $regular_accent_color_2;
+	color: $invert_accent_color_1;
+}
+.btn-primary,
+.btn-secondary {
+	background-color: $regular_accent_color_1;
+}
+
+.btn.search-form__submit {
+	color: $regular_accent_color_2;
+}
+
+.btn.search-form__submit:hover {
+	color: $regular_accent_color_1;
+}
+.error-404 .btn.search-form__submit {
+	color: $invert_accent_color_1;
+}
+.error-404 .btn.search-form__submit:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+
+/* #Button Appearance Styles (invert scheme) */
+.invert .btn-default {
+	color: $regular_link_color;
+	background-color: $invert_link_color;
+}
+.invert .btn-default:hover {
+	color: $regular_link_color;
+	background-color: $invert_link_hover_color;
+}
+.invert .btn-primary {
+	color: $invert_accent_color_1;
+	background-color: $invert_accent_color_2;
+}
+.invert .btn-primary:hover {
+	color: $regular_accent_color_2;
+	background-color: $invert_accent_color_1;
+}
+.invert .btn-secondary,
+.invert .btn-secondary:hover {
+	color: $regular_link_color;
+}

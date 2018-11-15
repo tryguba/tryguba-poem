@@ -1,0 +1,50 @@
+.tm_pb_builder #tm_builder_outer_content {
+
+	.tm_pb_number_counter {
+		margin: 0 auto 30px;
+		position: relative;
+		text-align: center;
+		word-wrap: break-word;
+		background-size: cover;
+		background-position: 50% 0%;
+
+		h3 {
+			padding: 17px 0 0;
+			font-size: 22px;
+		}
+
+		width: auto;
+
+		canvas {
+			display: none;
+			visibility: hidden;
+		}
+
+		.percent {
+			position: relative;
+			z-index: 2;
+			visibility: hidden;
+			font-weight: 700;
+			display: inline-block;
+			font-size: 48px;
+			margin-bottom: 10px;
+
+			.percent-value {
+				position: relative;
+				padding-bottom: 11px;
+
+				&:after {
+					content: '';
+					position: absolute;
+					left: 50%;
+					bottom: 0;
+					transform: translateX(-50%);
+					width: 62px;
+					height: 3px;
+					display: block;
+					@include transition(all 0.3s ease-out);
+				}
+			}
+		}
+	}
+}

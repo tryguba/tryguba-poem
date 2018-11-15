@@ -1,0 +1,49 @@
+.subscribe-block__input { color: $regular_text_color; }
+
+.widget-area:not(.footer-area) .widget-subscribe{
+	background-color: $invert_accent_color_3;
+}
+
+/*Subscribe*/
+
+.subscribe-block__input,
+.subscribe-block__input:focus,
+.subscribe-block__input-group .subscribe-block__input,
+.subscribe-block__input-group .subscribe-block__input:focus{
+	background-color: $invert_accent_color_1;
+	color: @alpha( $regular_accent_color_2, 55 );
+}
+
+.subscribe-block__input::-webkit-input-placeholder{
+	color: @alpha( $regular_accent_color_2, 55 ) !important;
+}
+
+.subscribe-block__input::-moz-placeholder{
+	color: @alpha( $regular_accent_color_2, 55 ) !important;
+}
+
+.subscribe-block__input:-moz-placeholder{
+	color: @alpha( $regular_accent_color_2, 55 ) !important;
+}
+
+.subscribe-block__input:-ms-input-placeholder{
+	color: @alpha( $regular_accent_color_2, 55 ) !important;
+}
+.subscribe-block__submit:hover,
+.invert .widget a.subscribe-block__submit:hover{
+	background-color: $regular_accent_color_2;
+	color: $invert_accent_color_1;
+	border-color: $regular_accent_color_2;
+}
+
+.widget-subscribe .follow-block .social-list__items a {
+	color: $regular_accent_color_2;
+}
+
+.widget-subscribe .follow-block .social-list__items a:hover {
+	color: $regular_accent_color_1;
+}
+
+.subscribe-block__error {
+	color: $regular_accent_color_1;
+}

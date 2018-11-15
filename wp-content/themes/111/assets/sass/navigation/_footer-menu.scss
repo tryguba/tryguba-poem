@@ -1,0 +1,29 @@
+.footer-menu {
+	&__items {
+		display: flex;
+		margin: 0;
+		padding-left: 0;
+		list-style: none;
+		flex-wrap: wrap;
+		justify-content: center;
+		border: none;
+
+		.menu-item {
+			display: flex;
+			padding: 0;
+			align-items: flex-start;
+			margin-left: 14px;
+			font-size: 0.75rem;
+			letter-spacing: 1.2px;
+			text-transform: uppercase;
+
+			&:before{
+				 content: '|';
+				 display: block;
+				 margin-right: 14px;
+				 color: red;
+				 opacity: .75;
+			 }
+		}
+	}
+}

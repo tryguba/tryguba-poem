@@ -1,0 +1,43 @@
+.site-footer.minimal {
+	.footer-container {
+		.site-info-wrapper{
+			display: flex;
+			justify-content:space-between;
+
+			@include media-breakpoint-down(md) {
+				justify-content:center;
+			}
+
+			.footer-logo{
+				margin-right: 15px;
+			}
+
+			.site-info__bottom {
+				@include media-breakpoint-down(md) {
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+	.footer {
+		&-copyright {
+			display: block;
+			vertical-align: middle;
+
+			@include media-breakpoint-up(xl) {
+				float: left;
+			}
+		}
+		&-menu {
+			display: block;
+			vertical-align: middle;
+		}
+	}
+	.widget {
+		margin-bottom: 0;
+		border-bottom: none;
+	}
+	.footer-container {
+		border-top: none;
+	}
+}
