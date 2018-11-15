@@ -20,13 +20,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'TRYGUBA');
+define('DB_NAME', '	heroku_1993959f8f6bf57');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'administrator');
+define('DB_USER', '	b081ce3b8b8c62');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '1111');
+define('DB_PASSWORD', '23787b0f');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');

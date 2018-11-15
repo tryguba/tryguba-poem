@@ -348,12 +348,12 @@
       <workItem from="1540540106112" duration="1378000" />
       <workItem from="1541506169794" duration="298000" />
       <workItem from="1541572455563" duration="4240000" />
-      <workItem from="1542272224325" duration="1478000" />
+      <workItem from="1542272224325" duration="1743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103327000" />
+    <option name="totallyTimeSpent" value="103592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,7 +383,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2309417" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.16255605" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="14" weight="0.20627803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
