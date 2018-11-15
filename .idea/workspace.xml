@@ -49,7 +49,7 @@
           <entry key="js" value="4" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="84" />
+          <entry key="php" value="87" />
           <entry key="png" value="1" />
           <entry key="pot" value="1" />
           <entry key="scss" value="47" />
@@ -66,7 +66,7 @@
           <entry key="JavaScript" value="4" />
           <entry key="Locale" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="81" />
+          <entry key="PHP" value="84" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="47" />
         </counts>
@@ -96,11 +96,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5873544">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+                <state relative-caret-position="433">
+                  <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#5#0#PHP" />
                     <element signature="e#235#240#0#PHP" />
@@ -129,15 +129,41 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-cron.php">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-128">
+                  <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#6#471#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="112">
                   <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -179,7 +205,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/parser.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/contacts.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="&lt;e0642782-54b3-49e3-9429-f9f7badb5c3f&gt;/public_html/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/style-content.scss" />
@@ -200,6 +225,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/new.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/tryguba_theme/aaaa.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
       </list>
     </option>
   </component>
@@ -263,14 +289,6 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tryguba.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tryguba.vn" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="tryguba_theme" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,12 +366,12 @@
       <workItem from="1540540106112" duration="1378000" />
       <workItem from="1541506169794" duration="298000" />
       <workItem from="1541572455563" duration="4240000" />
-      <workItem from="1542272224325" duration="1743000" />
+      <workItem from="1542272224325" duration="2079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103592000" />
+    <option name="totallyTimeSpent" value="103928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,6 +384,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2923" y="31" width="1557" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1733951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -467,13 +486,6 @@
             <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -597,10 +609,24 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sidebar.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/main-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+        <state relative-caret-position="433">
+          <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
           <folding>
             <element signature="e#0#5#0#PHP" />
             <element signature="e#235#240#0#PHP" />
@@ -628,17 +654,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/wp-cron.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/tryguba_theme/sass/styles.scss">
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-128">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#471#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
