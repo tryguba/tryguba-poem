@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dfe075a-8062-47a8-97a5-7b23d4538b05" name="Default Changelist" comment="" />
+    <list default="true" id="7dfe075a-8062-47a8-97a5-7b23d4538b05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
           <entry key="css" value="16" />
           <entry key="gitignore" value="2" />
           <entry key="js" value="155" />
-          <entry key="php" value="1807" />
+          <entry key="php" value="1826" />
           <entry key="scss" value="973" />
         </counts>
       </usages-collector>
@@ -85,7 +87,7 @@
           <entry key="CSS" value="16" />
           <entry key="Git file" value="2" />
           <entry key="JavaScript" value="155" />
-          <entry key="PHP" value="1806" />
+          <entry key="PHP" value="1825" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="973" />
         </counts>
@@ -93,7 +95,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5873544">
+    <splitter split-orientation="horizontal" split-proportion="0.7742194">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -137,8 +139,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-config.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-128">
-                  <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+                <state relative-caret-position="398">
+                  <caret line="97" column="26" lean-forward="true" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
                   <folding>
                     <element signature="e#6#471#0#PHP" expanded="true" />
                   </folding>
@@ -162,8 +164,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-config.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+                <state relative-caret-position="272">
+                  <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -236,9 +238,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2923" />
+    <option name="x" value="2730" />
     <option name="y" value="31" />
-    <option name="width" value="1557" />
+    <option name="width" value="1750" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -366,12 +368,12 @@
       <workItem from="1540540106112" duration="1378000" />
       <workItem from="1541506169794" duration="298000" />
       <workItem from="1541572455563" duration="4240000" />
-      <workItem from="1542272224325" duration="2079000" />
+      <workItem from="1542272224325" duration="4260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103928000" />
+    <option name="totallyTimeSpent" value="106109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,10 +385,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2923" y="31" width="1557" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="2730" y="31" width="1750" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1733951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15375587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -402,7 +403,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.16255605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.28139013" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="File Transfer" order="14" weight="0.20627803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -659,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="398">
+          <caret line="97" column="26" lean-forward="true" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
           <folding>
             <element signature="e#6#471#0#PHP" expanded="true" />
           </folding>

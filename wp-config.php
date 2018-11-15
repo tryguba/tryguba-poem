@@ -20,27 +20,25 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-//define('DB_NAME', 'TRYGUBA');
-define('DB_NAME', trim($url['path'], '/'));
+
+mysql://:@/?reconnect=true
+
+
+define('DB_NAME', 'heroku_1993959f8f6bf57');
 
 /** Имя пользователя MySQL */
-//define('DB_USER', 'administrator');
-define('DB_USER', $url['user']);
+define('DB_USER', 'b081ce3b8b8c62');
 
 /** Пароль к базе данных MySQL */
-//define('DB_PASSWORD', '1111');
-define('DB_PASSWORD', $url['pass']);
+define('DB_PASSWORD', '23787b0f');
 
 /** Имя сервера MySQL */
-//define('DB_HOST', 'localhost');
-define('DB_HOST', $url['host']);
+define('DB_HOST', 'us-cdbr-iron-east-01.cleardb.net');
 
 /** Кодировка базы данных для создания таблиц. */
-//define('DB_CHARSET', 'utf8mb4');
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
-//define('DB_COLLATE', '');
 define('DB_COLLATE', '');
 
 /**#@+
@@ -52,25 +50,15 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-//define('AUTH_KEY',         'Mitg;0R0T*}6oQ)`]E]$m7{:$|$[8!uf[-VlD>l=#>L$8PuNS]{^1mEL;lOLgaw*');
-//define('SECURE_AUTH_KEY',  ' wY.p;g1 }N3tGvbrv(zRxA59/#q[~,k9=FfkC!x$s^SRo^@`6-,bhNd84Q y:a(');
-//define('LOGGED_IN_KEY',    'iz?7UV*T#5uxOb8fj-D>>(C5f;^aVA< f:41y$.*z[Xt]%eg0ML;s<fh1<6p3< @');
-//define('NONCE_KEY',        'xo=C=YK_&=]PSD0X+#kD6=88MJ$[$!CF)A}|^c.c855e(bA./]F0a`}GUw0W&.a:');
-//define('AUTH_SALT',        'kE~}.|JTsjyw,+Q<$F(++XU99b-EpfI=ckgv5tFibAz;qdEC}#?]/I|(},NjBCw^');
-//define('SECURE_AUTH_SALT', 'so=IQt580F5GBgrf40!?R?/kfW2wFK:8W}.zCkMuNVP6:aaCmdbLAI}{JJ$<#W&$');
-//define('LOGGED_IN_SALT',   'W2sBnMnY`bvE;`-@rugZ~*0+s{<];Q7:Y7=4L5j*Q,QtkVTI*NBl[&7?ECm.(C&W');
-//define('NONCE_SALT',       'VwEaIETKl}a[Xj)#4[Q=?vV=R:?_E9t,Z^8h>wD$qW1,vhLUA-s>jh~U>%OsRz]C');
+define('AUTH_KEY',         'Mitg;0R0T*}6oQ)`]E]$m7{:$|$[8!uf[-VlD>l=#>L$8PuNS]{^1mEL;lOLgaw*');
+define('SECURE_AUTH_KEY',  ' wY.p;g1 }N3tGvbrv(zRxA59/#q[~,k9=FfkC!x$s^SRo^@`6-,bhNd84Q y:a(');
+define('LOGGED_IN_KEY',    'iz?7UV*T#5uxOb8fj-D>>(C5f;^aVA< f:41y$.*z[Xt]%eg0ML;s<fh1<6p3< @');
+define('NONCE_KEY',        'xo=C=YK_&=]PSD0X+#kD6=88MJ$[$!CF)A}|^c.c855e(bA./]F0a`}GUw0W&.a:');
+define('AUTH_SALT',        'kE~}.|JTsjyw,+Q<$F(++XU99b-EpfI=ckgv5tFibAz;qdEC}#?]/I|(},NjBCw^');
+define('SECURE_AUTH_SALT', 'so=IQt580F5GBgrf40!?R?/kfW2wFK:8W}.zCkMuNVP6:aaCmdbLAI}{JJ$<#W&$');
+define('LOGGED_IN_SALT',   'W2sBnMnY`bvE;`-@rugZ~*0+s{<];Q7:Y7=4L5j*Q,QtkVTI*NBl[&7?ECm.(C&W');
+define('NONCE_SALT',       'VwEaIETKl}a[Xj)#4[Q=?vV=R:?_E9t,Z^8h>wD$qW1,vhLUA-s>jh~U>%OsRz]C');
 
-
-
-define('AUTH_KEY',         getenv('AUTH_KEY'));
-define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
-define('NONCE_KEY',        getenv('NONCE_KEY'));
-define('AUTH_SALT',        getenv('AUTH_SALT'));
-define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
-define('NONCE_SALT',       getenv('NONCE_SALT'));
 /**#@-*/
 
 /**
